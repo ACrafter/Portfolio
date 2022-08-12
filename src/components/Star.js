@@ -31,8 +31,7 @@ export default function Star(props) {
     :  
     <div>
         <motion.img
-            // src={stars_img[Math.floor(Math.random()*stars_img.length)]}
-            src={star1} 
+            src={stars_img[Math.floor(Math.random()*stars_img.length)]} 
             initial={{x: props.x, y:props.y, scale: 0}}
             animate={{scale: [0, props.scale, props.scale, 0]}}
             transition={{duration: 2 + props.time, repeat:Infinity}}
