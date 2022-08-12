@@ -10,7 +10,6 @@ import star6 from '../images/Stars/Asset 6.png'
 import star7 from '../images/Stars/Asset 7.png'
 import star8 from '../images/Stars/Asset 8.png'
 import star9 from '../images/Stars/Asset 9.png'
-import comet from '../images/Stars/Asset 10.png'
 
 
 export default function Star(props) {
