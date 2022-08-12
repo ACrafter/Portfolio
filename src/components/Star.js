@@ -17,7 +17,6 @@ export default function Star(props) {
   const stars_img = [star1, star2, star3, star4, star5, star6, star7, star8, star9, comet]
 
   var el = stars_img[Math.floor(Math.random()*stars_img.length)];
-
   return (
     el === comet 
     ? 
@@ -32,7 +31,7 @@ export default function Star(props) {
     :  
     <div>
         <motion.img
-            src={el} 
+            src={stars_img[Math.floor(Math.random()*(stars_img.length - 1))]} 
             initial={{x: props.x, y:props.y, scale: 0}}
             animate={{scale: [0, props.scale, props.scale, 0]}}
             transition={{duration: 2 + props.time, repeat:Infinity}}
