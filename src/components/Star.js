@@ -23,7 +23,7 @@ export default function Star(props) {
     ? 
     <div>
       <motion.img 
-            src={el}
+            src={comet}
             initial={{x: props.x, y:props.y}}
             animate={{x: props.x - 200, y:props.y + 200, scale: 0}}
             transition={{duration: 1.5, repeat: Infinity}}
