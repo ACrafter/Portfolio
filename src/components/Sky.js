@@ -11,7 +11,7 @@ export default function Sky() {
         {stars.map((star) => {
           return (
             <Star 
-              key={uuid()}
+              key={uuidv4()}
               x={star.x}
               y={star.y}
               scale={star.scale}
