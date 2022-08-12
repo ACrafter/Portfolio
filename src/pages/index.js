@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div>
     <Layout />
-    <Landing />
+    {/* <Landing /> */}
     </div>
   )
 }
