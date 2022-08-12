@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import '../styles/SkyObject.css'
 import star1 from '../images/Stars/Asset 1.png'
 import star2 from '../images/Stars/Asset 2.png'
 import star3 from '../images/Stars/Asset 3.png'
@@ -16,20 +17,8 @@ export default function Star(props) {
   
   const stars_img = [star1, star2, star3, star4, star5, star6, star7, star8, star9]
 
-  var el = Math.floor(Math.random()*10);
-  return (
-    el > 8 
-    ? 
-    <div>
-      <motion.img 
-            src={comet}
-            initial={{x: props.x, y:props.y}}
-            animate={{x: props.x - 200, y:props.y + 200, scale: 0}}
-            transition={{duration: 1.5, repeat: Infinity}}
-        />
-    </div> 
-    :  
-    <div>
+  return ( 
+    <div className='obj'>
         <motion.img
             src={stars_img[Math.floor(Math.random()*stars_img.length)]} 
             initial={{x: props.x, y:props.y, scale: 0}}
