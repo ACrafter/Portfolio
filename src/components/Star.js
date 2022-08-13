@@ -1,13 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import '../styles/SkyObject.css'
 
 
 
 export default function Star(props) {
   
   return ( 
-    <div className='obj'>
+    <div>
         <motion.img
             src={props.img} 
             initial={{x: props.x, y:props.y, scale: 0}}
