@@ -23,24 +23,24 @@ export default function Sky() {
 
   return (
     <div className='sky'>
-        {stars.map((star) => {
+        {stars.map((obj) => {
           var el = Math.floor(Math.random()*10)
           return (
             el < 9 ?
             <Star 
               key={uuidv4()}
               img={stars_img[el]}
-              x={star.x}
-              y={star.y}
-              scale={star.scale}
-              time={star.time}
+              x={obj.x}
+              y={obj.y}
+              scale={obj.scale}
+              time={obj.time}
             />
             :
             <Comet 
               img={stars_img[el]}
               key={uuidv4()}
-              x={star.x}
-              y={star.y}
+              x={obj.x}
+              y={obj.y}
             />
           )
         })}
