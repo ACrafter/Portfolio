@@ -7,14 +7,14 @@ export default function Navbar() {
     <div>
     <Nav variant="tabs" className='justify-content-center' defaultActiveKey="/home">
       <Nav.Item>
-        <Nav.Link href="/">Active</Nav.Link>
+        <Nav.Link href="/">Home</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="link-1">Option 2</Nav.Link>
+        <Nav.Link eventKey="link-1">Mentions</Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link eventKey="disabled" disabled>
-          Disabled
+          Blog
         </Nav.Link>
       </Nav.Item>
     </Nav>

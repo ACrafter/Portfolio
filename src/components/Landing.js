@@ -14,8 +14,8 @@ export default function Landing() {
     <div className='heading'>
         <h2>Hi There! I am Ahmed Yasser, A Full Stack Web Developer.</h2>
         <h3>Welcome to my Portfolio.</h3>
-        <Button onClick={() => {window.scrollBy(0, 1500)}} variant="light">Explore</Button>
-        <Button variant="dark">Contact</Button>
+        <Button className='button' onClick={() => {window.scrollBy(0, 1500)}} variant="light">Explore</Button>
+        <Button className='button' variant="dark">Contact</Button>
         
 
     </div>

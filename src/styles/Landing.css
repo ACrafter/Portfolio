@@ -2,10 +2,18 @@ body{
     background-color: #252934;
 }
 
+
 .heading {
     text-align: center;
+    margin: 2rem;
     margin-top: 10rem;
     color: white;
+}
+
+.button{
+    margin: 2rem 1rem 2rem 1rem;
+    width: 10rem;
+    text-align: center;
 }
 
 

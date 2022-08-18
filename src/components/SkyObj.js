@@ -6,7 +6,8 @@ import comet from '../images/Stars/Asset 10.png'
 export default function SkyObj(props) {
   return (
     <div>
-        {props.id < 8? 
+        {props.id < 14
+        ? 
          ( 
         <div>
             <motion.img
@@ -16,13 +17,18 @@ export default function SkyObj(props) {
                 transition={{duration: 2 + props.time, repeat:Infinity}}
             />
         </div>
-        ):
-        <motion.img 
-            src={comet}
-            initial={{x: props.x, y:props.y}}
-            animate={{x: props.x - 200, y:props.y + 200, scale: 0}}
-            transition={{duration: 0.7 + props.time, repeat: Infinity}}
-        />
+        )
+        :
+        (
+        <div>
+            <motion.img 
+                src={comet}
+                initial={{x: props.x, y:props.y}}
+                animate={{x: props.x - 200, y:props.y + 200, scale: 0}}
+                transition={{duration: 0.7 + props.time, repeat: Infinity}}
+            />
+        </div>
+        )
     }
 </div>
 )}

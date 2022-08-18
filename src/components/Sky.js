@@ -17,9 +17,9 @@ export default function Sky() {
             return(
               <SkyObj
                 key = {uuidv4()}
-                id = {Math.floor(Math.random()*10)} 
-                x = {obj.x}
-                y = {obj.y}
+                id = {Math.floor(Math.random()*15)} 
+                x = {`${obj.x}vw`}
+                y = {`${obj.y}vw`}
                 time = {obj.time}
                 scale = {obj.scale}
               />
