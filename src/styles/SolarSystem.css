@@ -2,5 +2,126 @@
     margin: auto;
     /* text-align: center; */
     width: 100%;
-    margin-top: 15rem;
+    margin-top: 45rem;
+}
+
+.mer {
+    position: absolute;
+    height: 4%;
+    left: 47vw;
+    -webkit-animation: mer 3s linear infinite;
+
+    
+    
+    
+}
+
+@-webkit-keyframes mer {
+    from { -webkit-transform: rotate(-360deg) translateX(150px) rotate(0deg); }
+    to   { -webkit-transform: rotate(0deg) translateX(150px) rotate(360deg); }
+}
+
+/*******/
+
+.ven {
+    position: absolute;
+    height: 4%;
+    left: 47vw;
+    -webkit-animation: ven 6s linear infinite;
+
+    
+    
+    
+}
+
+@-webkit-keyframes ven {
+    from { -webkit-transform: rotate(-360deg) translateX(200px) rotate(0deg); }
+    to   { -webkit-transform: rotate(0deg) translateX(200px) rotate(360deg); }
+}
+
+/*******/
+
+.ear {
+    position: absolute;
+    height: 6%;
+    left: 47vw;
+    -webkit-animation: ear 7s linear infinite;
+
+    
+    
+    
+}
+
+@-webkit-keyframes ear {
+    from { -webkit-transform: rotate(-360deg) translateX(250px) rotate(0deg); }
+    to   { -webkit-transform: rotate(0deg) translateX(250px) rotate(360deg); }
+}
+/*******/
+
+.mar {
+    position: absolute;
+    height: 6%;
+    left: 47vw;
+    -webkit-animation: mar 8s linear infinite;
+
+    
+    
+    
+}
+
+@-webkit-keyframes mar {
+    from { -webkit-transform: rotate(-360deg) translateX(300px) rotate(0deg); }
+    to   { -webkit-transform: rotate(0deg) translateX(300px) rotate(360deg); }
+}
+
+/*******/
+
+.jup {
+    position: absolute;
+    height: 9%;
+    left: 47vw;
+    -webkit-animation: jup 13s linear infinite;
+
+    
+    
+    
+}
+
+@-webkit-keyframes jup {
+    from { -webkit-transform: rotate(-360deg) translateX(400px) rotate(0deg); }
+    to   { -webkit-transform: rotate(0deg) translateX(400px) rotate(360deg); }
+}
+/*******/
+
+.sat {
+    position: absolute;
+    height: 9%;
+    left: 47vw;
+    -webkit-animation: sat 15s linear infinite;
+
+    
+    
+    
+}
+
+@-webkit-keyframes sat {
+    from { -webkit-transform: rotate(-360deg) translateX(500px) rotate(0deg); }
+    to   { -webkit-transform: rotate(0deg) translateX(500px) rotate(360deg); }
+}
+/*******/
+
+.ura {
+    position: absolute;
+    height: 9%;
+    left: 47vw;
+    -webkit-animation: ura 16s linear infinite;
+
+    
+    
+    
+}
+
+@-webkit-keyframes ura {
+    from { -webkit-transform: rotate(-360deg) translateX(600px) rotate(0deg); }
+    to   { -webkit-transform: rotate(0deg) translateX(600px) rotate(360deg); }
 }

@@ -1,19 +1,43 @@
-import sun from '../images/Planets/Asset 7.png'
-import '../styles/SolarSystem.css'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import '../styles/SolarSystem.css';
 import React from 'react'
 import { motion } from 'framer-motion'
+import Planets from '../images/Planets/planets'
 
 export default function SolarSystem() {
+  const draw = {
+    hidden: { pathLength: 0, opacity: 0 },
+    visible: (i) => {
+      const delay = 1 + i * 0.5;
+      return {
+        pathLength: 1,
+        opacity: 1,
+        transition: {
+          pathLength: { delay, type: "spring", duration: 1.5, bounce: 0 },
+          opacity: { delay, duration: 0.01 }
+        }
+      };
+    }
+  };
+
   return (
-    <div className='solar md'>
-        <motion.img src={sun} 
+    <motion.div className='solar md'
+      // animate={{scale: 0.8}}
+    >
+        <motion.img src={Planets[0]} 
             animate={{rotate: [0, 360]}}
             initial={{x: '47vw'}}
-            transition={{repeat:Infinity,}}
+            transition={{repeat:Infinity, ease:'linear', duration: 6}}
         />
-    </div>
+
+        
+        <img className='mer' src={Planets[1]} />
+        <img className='ven' src={Planets[2]} />
+        <img className='ear' src={Planets[3]} />
+        <img className='mar' src={Planets[4]} />
+        <img className='jup' src={Planets[5]} />
+        <img className='sat' src={Planets[6]} />
+        <img className='ura' src={Planets[7]} />
+    </motion.div>
   )
 }
+
