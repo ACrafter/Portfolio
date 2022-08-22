@@ -2,18 +2,23 @@
     margin: auto;
     /* text-align: center; */
     width: 100%;
-    margin-top: 45rem;
+    margin-top: 35rem;
 }
 
 .mer {
     position: absolute;
     height: 4%;
     left: 47vw;
+    border-radius: 2rem;
     -webkit-animation: mer 3s linear infinite;
 
     
     
     
+}
+
+.mer:hover{
+    box-shadow: 0px 0px 5px #ffffff;
 }
 
 @-webkit-keyframes mer {
@@ -27,11 +32,16 @@
     position: absolute;
     height: 4%;
     left: 47vw;
+    border-radius: 2rem;
     -webkit-animation: ven 6s linear infinite;
 
     
     
     
+}
+
+.ven:hover{
+    box-shadow: 0px 0px 5px #ffffff;
 }
 
 @-webkit-keyframes ven {
@@ -45,11 +55,16 @@
     position: absolute;
     height: 6%;
     left: 47vw;
+    border-radius: 2rem;
     -webkit-animation: ear 7s linear infinite;
 
     
     
     
+}
+
+.ear:hover{
+    box-shadow: 0px 0px 5px #ffffff;
 }
 
 @-webkit-keyframes ear {
@@ -62,11 +77,16 @@
     position: absolute;
     height: 6%;
     left: 47vw;
+    border-radius: 2rem;
     -webkit-animation: mar 8s linear infinite;
 
     
     
     
+}
+
+.mar:hover{
+    box-shadow: 0px 0px 5px #ffffff;
 }
 
 @-webkit-keyframes mar {
@@ -80,11 +100,16 @@
     position: absolute;
     height: 9%;
     left: 47vw;
+    border-radius: 2rem;
     -webkit-animation: jup 13s linear infinite;
+    z-index: -1;
 
     
     
-    
+}
+
+.jup:hover{
+    box-shadow: 0px 0px 5px #ffffff;
 }
 
 @-webkit-keyframes jup {
@@ -98,10 +123,15 @@
     height: 9%;
     left: 47vw;
     -webkit-animation: sat 15s linear infinite;
+    z-index: -1;
 
     
     
     
+}
+
+.sat:hover{
+    box-shadow: 0px 0px 5px #ffffff;
 }
 
 @-webkit-keyframes sat {
@@ -113,6 +143,7 @@
 .ura {
     position: absolute;
     height: 9%;
+    z-index: -1;
     left: 47vw;
     -webkit-animation: ura 16s linear infinite;
 
@@ -121,10 +152,16 @@
     
 }
 
+.ura:hover{
+    box-shadow: 0px 0px 5px #ffffff;
+}
+
 @-webkit-keyframes ura {
     from { -webkit-transform: rotate(-360deg) translateX(600px) rotate(0deg); }
     to   { -webkit-transform: rotate(0deg) translateX(600px) rotate(360deg); }
 }
+
+
 
 @media (max-width:500px) { 
     .solar{

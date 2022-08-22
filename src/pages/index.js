@@ -4,6 +4,8 @@ import Landing from '../components/Landing';
 import Layout from '../components/Layout';
 import SolarSystem from '../components/SolarSystem';
 import Head from '../components/Head';
+import Cards from '../components/Card';
+import About from '../components/About';
 
 export default function App() {
   return (
@@ -11,6 +13,8 @@ export default function App() {
     <Layout>
       <Landing />
       <SolarSystem />
+      <About />
+      <Cards />
     </Layout>
     </div>
   )

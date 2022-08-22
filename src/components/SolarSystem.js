@@ -30,13 +30,13 @@ export default function SolarSystem() {
         />
 
         
-        <img className='mer' src={Planets[1]} />
-        <img className='ven' src={Planets[2]} />
-        <img className='ear' src={Planets[3]} />
-        <img className='mar' src={Planets[4]} />
-        <img className='jup' src={Planets[5]} />
-        <img className='sat' src={Planets[6]} />
-        <img className='ura' src={Planets[7]} />
+        <motion.img className='mer' src={Planets[1]} />
+        <motion.img className='ven' src={Planets[2]} />
+        <motion.img className='ear' src={Planets[3]} />
+        <motion.img className='mar' src={Planets[4]} />
+        <motion.img className='jup' src={Planets[5]} />
+        <motion.img className='sat' src={Planets[6]} />
+        <motion.img className='ura' src={Planets[7]} />
     </motion.div>
   )
 }
