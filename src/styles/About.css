@@ -40,18 +40,24 @@
 @media (max-width:500px) { 
     .about{
     margin-top: 0px;
+    padding-right: 12px;
     }
     
     .text{
         text-align: center;
+        margin: auto;
     }
 
     .text p{
-        width: 99%;
+        width: 100%;
     }
 
     .text ul{
         list-style: none;
+    }
+
+    .text li{
+        margin: auto;
     }
     .text img{
         visibility: hidden;

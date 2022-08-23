@@ -4,7 +4,7 @@ import Landing from '../components/Landing';
 import Layout from '../components/Layout';
 import SolarSystem from '../components/SolarSystem';
 import Head from '../components/Head';
-import Cards from '../components/Card';
+import Cards from '../components/Board';
 import About from '../components/About';
 
 export default function App() {

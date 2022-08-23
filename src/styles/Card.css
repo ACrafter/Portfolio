@@ -1,0 +1,38 @@
+.project{
+    margin-top: 30vw;
+    color: white;
+    text-align: center;
+}
+
+
+.card{
+    border: 5px black solid;
+    width: 17rem;
+    height: 30rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: white;
+    display: inline-block;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 3rem;
+    background-color: #4A3139;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.card img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+@media (max-width:500px) {
+    .card{
+        margin: auto;
+        margin-top: 2rem;
+    }
+}
