@@ -1,23 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
+import {motion} from 'framer-motion'
 import '../styles/Landing.css';
 
 
-
-
 export default function Landing() {
-  const [appear, setAppear] = useState(true)
-
-
   return (
-    <div className='heading'>
-        <h2>Hi There! I am Ahmed Yasser, A Full Stack Web Developer.</h2>
+    <motion.div className='heading'
+      initial = {{y: -3000}}
+      animate = {{y: 0}}
+      transition = {{delay: 0.5}}
+    >
+        <h2>Hi There! I am Ahmed Yasser, A Developer.</h2>
         <h3>Welcome to my Portfolio.</h3>
-        <Button className='button' onClick={() => {window.scrollBy(0, 1500)}} variant="light">Explore</Button>
-        <Button className='button' variant="dark">Contact</Button>
+        <Button className='button' onClick={() => {window.scrollBy(0, 1900)}} variant="light">Projects</Button>
+        <Button className='button' onClick={() => {window.scrollBy(0, 2850)}} variant="dark">Contact</Button>
         
 
-    </div>
+    </motion.div>
   )
 }

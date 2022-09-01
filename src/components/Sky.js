@@ -14,6 +14,7 @@ export default function Sky() {
   return (
     <div className='sky'>
         {stars.map((obj) => {
+            var objY = obj.y
             return(
               <SkyObj
                 key = {uuidv4()}
@@ -23,7 +24,7 @@ export default function Sky() {
                 time = {obj.time}
                 scale = {obj.scale}
               />
-            )
+        )
         })}
 
     </div>

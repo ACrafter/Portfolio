@@ -3,8 +3,9 @@
     background-color: #4A3139;
     text-align: center;
     color: white;
-    border-radius: 3vw;
-    margin-top: 20vw;
+    border-radius: 3rem;
+    margin: 2rem;
+    margin-top: 20rem;
     border: 5px;
     border-style: solid;
     border-color: black;
@@ -13,20 +14,20 @@
 
 .text{
     color: white;
-    margin-top: 2vw;
-    margin-bottom: 5vw;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
     text-align: left;
 }
 
 .text p {
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 2rem;
+    margin-right: 2rem;
     width: 65%;
 }
 
 .text img{
     position: absolute;
-    height: 16vw;
+    height: 15rem;
 }
 
 .text ul{
@@ -34,12 +35,14 @@
 }
 
 .text li{
-    margin-left: 2vw;
+    margin-left: 2rem;
 }
 
 @media (max-width:500px) { 
     .about{
     margin-top: 0px;
+    margin-left: 2rem;
+    margin-right: 2rem;
     padding-right: 12px;
     }
     

@@ -1,5 +1,5 @@
 .project{
-    margin-top: 30vw;
+    margin-top: 20rem;
     color: white;
     text-align: center;
 }
@@ -19,6 +19,7 @@
     background-color: #4A3139;
     border-radius: 15px;
     text-align: center;
+    /* box-shadow: 6px 6px 10px 12px #ffffff */
 }
 
 

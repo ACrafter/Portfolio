@@ -11,7 +11,6 @@ export default function Layout({ children }) {
         <Navbar />
         <Sky />
         {children}
-        {/* <Footer /> */}
     </div>
   )
 }

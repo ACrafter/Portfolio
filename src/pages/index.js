@@ -6,6 +6,7 @@ import SolarSystem from '../components/SolarSystem';
 import Head from '../components/Head';
 import Cards from '../components/Board';
 import About from '../components/About';
+import Footer from '../components/Footer';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <SolarSystem />
       <About />
       <Cards />
+      <Footer />
     </Layout>
     </div>
   )
