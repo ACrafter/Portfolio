@@ -1,5 +1,5 @@
 import Nav from 'react-bootstrap/Nav'
-
+import { Link } from 'gatsby'
 import React from 'react'
 
 export default function Navbar() {
@@ -7,10 +7,10 @@ export default function Navbar() {
     <div>
     <Nav variant="tabs" className='justify-content-center' defaultActiveKey="/home">
       <Nav.Item>
-        <Nav.Link href="/">Home</Nav.Link>
+       <Link to='/'><Nav.Link href='/'>Home</Nav.Link></Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="link-1">Mentions</Nav.Link>
+        <Link to='/mentions'><Nav.Link href='/mentions'>Mentions</Nav.Link></Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link eventKey="disabled" disabled>

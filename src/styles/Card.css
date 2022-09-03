@@ -6,7 +6,7 @@
 
 
 .card{
-    border: 5px black solid;
+    border: 5px #493E66 solid;
     width: 17rem;
     height: 30rem;
     padding-right: 1rem;
@@ -16,12 +16,15 @@
     margin-left: 6rem;
     margin-right: 6rem;
     margin-top: 3rem;
-    background-color: #4A3139;
+    background-color: #4C2F99;
     border-radius: 15px;
     text-align: center;
     /* box-shadow: 6px 6px 10px 12px #ffffff */
 }
 
+.card:hover{
+    border: 5px #C65180 solid;
+}
 
 .card img{
     height: 5rem;

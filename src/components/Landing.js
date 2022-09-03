@@ -10,7 +10,7 @@ export default function Landing() {
     <motion.div className='heading'
       initial = {{y: -3000}}
       animate = {{y: 0}}
-      transition = {{delay: 0.5}}
+      transition = {{type: 'spring', delay: 0.1}}
     >
         <h2>Hi There! I am Ahmed Yasser, A Developer.</h2>
         <h3>Welcome to my Portfolio.</h3>

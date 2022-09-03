@@ -1,17 +1,19 @@
-import React from 'react'
-import web from '../images/Planets/Asset 1.png'
+import { Link } from 'gatsby'
+import React, {forwardRef} from 'react'
 import { Button } from 'react-bootstrap'
-import { motion } from 'framer-motion'
 
-
-export default function Cards(props) {
+const Cards = forwardRef((props, ref)  => {
   return (
-    <motion.div className='card'>
+    <div className='card'
+      ref={ref}
+    >
         <img src={props.img} alt='missing'/>
         <h3>{props.title}</h3>
         <p>{props.paraOne}</p>
         <p>{props.paraTwo}</p>
-        <Button>View</Button>
-    </motion.div>
+        <Link to={props.link}><Button variant="dark" style={{'marginTop': 5}}>View</Button></Link>
+    </div>
   )
-}
+})
+
+export default Cards
