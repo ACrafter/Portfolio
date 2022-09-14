@@ -14,11 +14,11 @@ export default function Footer() {
       <h1>Thanks For Visiting</h1>
       <p>Don't Hesitate To Contact</p>
           <motion.img src={fb}
-            whileHover={{scale: 1.2, boxShadow: '0px 0px 6px gold'}}
+            whileHover={{scale: 1.2, border: '3px gold solid'}}
             whileTap={{ scale: 0.9 }}
           />
           <motion.img src={tw}
-            whileHover={{scale: 1.2, boxShadow: '0px 0px 6px gold'}}
+            whileHover={{scale: 1.2, border: '3px gold solid'}}
             whileTap={{ scale: 0.9 }}
           />
           <motion.img src={gm}
@@ -28,11 +28,11 @@ export default function Footer() {
 
           />
           <motion.img src={up}
-            whileHover={{scale: 1.2, boxShadow: '0px 0px 6px gold'}}
+            whileHover={{scale: 1.2,  border: '3px gold solid'}}
             whileTap={{ scale: 0.9 }}
           />
           <motion.img src={lk}
-            whileHover={{scale: 1.2, boxShadow: '0px 0px 6px gold'}}
+            whileHover={{scale: 1.2, border: '3px gold solid'}}
             whileTap={{ scale: 0.9 }}
           />
           <p style={{color: 'white', marginTop: '5rem'}}>Copyright © {new Date().getFullYear()}</p>

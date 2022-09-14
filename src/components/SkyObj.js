@@ -6,7 +6,7 @@ import comet from '../images/Stars/Asset 10.png'
 export default function SkyObj(props) {
   return (
     <div>
-        {props.id < 14
+        {(props.id < 14)
         ? 
          ( 
         <div>
